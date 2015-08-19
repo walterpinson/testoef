@@ -90,7 +90,6 @@ csx
 AppPackages/
 
 # Others
-Web.config
 [Bb]in
 [Oo]bj
 sql
