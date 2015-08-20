@@ -27,6 +27,7 @@ namespace ef_api.Controllers
         [HttpGet, Route("")]
         public IHttpActionResult Get()
         {
+            // add a useless comment
             var registrations = _registrar.GetRegistrations();
             return Ok(registrations);
         }
