@@ -5,6 +5,7 @@ This repository contains the result of some exploratory programming to demonstra
 The ef-api Visual Studio solution contains examples of how to do the following:
 
 * Map complex types to flat database structures using the Entity Framework Code First fluent API.
+* Utilize EF Code First **without** migrations.
 * Organize code using the Onion Architecture (and Domain Driven Design).
 * Implement the IRepository pattern for aggregated roots (DDD concept).
 * Implement a RESTful API using ASP.NET MVC.
