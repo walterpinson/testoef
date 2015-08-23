@@ -4,13 +4,13 @@ This repository contains the result of some exploratory programming to demonstra
 ## Features
 The ef-api Visual Studio solution contains examples of how to do the following:
 
-1. Map complex types to flat database structures using the Entity Framework Code First fluent API.
-2. Organize code using the Onion Architecture (and Domain Driven Design).
-3. Implement the IRepository pattern for aggregated roots (DDD concept).
-4. Implement a RESTful API using ASP.NET MVC.
-5. Implement dependency injection (DI) using Microsoft Unity.
-6. Map collections of objects using AutoMapper.
-7. Utlize the Arrange, Act, Assert pattern in unit / integration tests.
+* Map complex types to flat database structures using the Entity Framework Code First fluent API.
+* Organize code using the Onion Architecture (and Domain Driven Design).
+* Implement the IRepository pattern for aggregated roots (DDD concept).
+* Implement a RESTful API using ASP.NET MVC.
+* Implement dependency injection (DI) using Microsoft Unity.
+* Map collections of objects using AutoMapper.
+* Utlize the Arrange, Act, Assert pattern in unit / integration tests.
 
 ## Deployment Instructions
 ### Get the code
