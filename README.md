@@ -14,7 +14,7 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 
 ### Add database support
 1. Create a new SQL Server database on your local machine (or accessible server).
-1. Run the script, `\_scripts/create.table.registration.sql`, against your newly created database.
+1. Run the script, `_scripts/create.table.registration.sql`, against your newly created database.
 1. Create a new SQL Server login giving it dbo and db_datawriter permissions to your new database.
 1. Modify the connection string named `test` to the appropriate string for your environment in the following files:
 	1. `ef-api/web.config`
