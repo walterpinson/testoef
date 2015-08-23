@@ -34,3 +34,38 @@ You can start the API by simply running the **ef-api** project in the Visual Stu
 
 ## Make API calls
 You should, now, be able to test the live API by issuing GET and POST requests the API endpoint, http://localhost:4315/api/registrations.
+
+### GET
+#### Request
+```
+curl -H "Content-Type: application/json" -H "Accept-Charset: utf-8" http://localhost:4315/api/registrations
+```
+#### Response
+```json
+[
+  {
+    "Id": "73b91972-77c3-4d92-85d3-353c07454ef8",
+    "FirstName": "Jimmie",
+    "LastName": "Hendrix",
+    "RespondedOn": "2015-08-22T03:54:33.9630846"
+  },
+  {
+    "Id": "5ba22a54-7aa7-4b4b-ba86-388a8ac07066",
+    "FirstName": "Doc",
+    "LastName": "Holiday",
+    "RespondedOn": "2015-08-19T23:38:16.873015"
+  },
+  {
+    "Id": "7f85f148-1796-4962-a8e3-b3d63d3aaa38",
+    "FirstName": "Prince",
+    "LastName": "Nelson",
+    "RespondedOn": "2015-08-20T16:25:19.6040775"
+  },
+  {
+    "Id": "d16635a8-cc07-421d-a34c-c538145efefc",
+    "FirstName": "Patrick",
+    "LastName": "Henry",
+    "RespondedOn": "2015-08-20T00:28:49.1465767"
+  }
+]
+```
