@@ -33,8 +33,31 @@ The ef-api Visual Studio solution contains examples of how to do the following:
 You can start the API by simply running the **ef-api** project in the Visual Studio debugger.
 
 ## Make API calls
-You should, now, be able to test the live API by issuing GET and POST requests the API endpoint, http://localhost:4315/api/registrations.
+You should, now, be able to test the live API by issuing GET and POST requests the API endpoint, http://localhost:4315/api/registrations.  The examples below use curl. But, you should feel free to use the API client of your choosing be that PostMan, Fiddler, or what have you.
 
+### POST
+#### Request
+```
+curl -H "Content-Type: application/json" -H "Accept-Charset: utf-8" --data @- http://localhost:4315/api/registrations
+{
+    "FirstName": "Benjamin",
+    "LastName": "Fraklin",
+    "Message": "Money makes money. And the money that makes money makes more money."
+}
+```
+#### Response
+```
+Cache-Control → no-cache
+Content-Length → 2
+Content-Type → application/json; charset=utf-8
+Date → Sun, 23 Aug 2015 19:19:32 GMT
+Expires → -1
+Location → http://localhost:4315/api/registrations/199dee7e-54b4-4c29-a76a-d7675511b78b
+Pragma → no-cache
+Server → Microsoft-IIS/8.0
+X-AspNet-Version → 4.0.30319
+X-Powered-By → ASP.NET
+```
 ### GET
 #### Request
 ```
