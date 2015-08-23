@@ -1,9 +1,15 @@
-# Getting Started
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
+# Entity Framework Test (testoef)
+This repository contains the result of some exploratory programming to demonstrate the [Entity Framework 6](https://msdn.microsoft.com/en-us/data/ee712907.aspx) Code First capability to map complex, in-memory objects to existing, flat, denormalized, database tables.  In the process, other principles and best practices are also demonstrated.
 
 ## Features
+The ef-api Visual Studio solution contains examples of how to do the following:
+1. Map complex types to flat database structures using the Entity Framework Code First fluent API.
+2. Organize code using the Onion Architecture (and Domain Driven Design).
+3. Implement the IRepository pattern for aggregated roots (DDD concept).
+4. Implement a RESTful API using ASP.NET MVC.
+5. Implement dependency injection (DI) using Microsoft Unity.
+6. Map collections of objects using AutoMapper.
+7. Utlize the Arrange, Act, Assert pattern in unit / integration tests.
 
 ## Deployment Instructions
 ### Get the code
@@ -22,7 +28,7 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 1. Run the integration tests to make sure that everything is working properly.
 
 ### Start the API
-You can start the API by simply running the **ef-api** project in the debugger.
+You can start the API by simply running the **ef-api** project in the Visual Studio debugger.
 
 ## Make API calls
 You should, now, be able to test the live API by issuing GET and POST requests the API endpoint, http://localhost:4315/api/registrations.
