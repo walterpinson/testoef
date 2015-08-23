@@ -32,7 +32,7 @@ The ef-api Visual Studio solution contains examples of how to do the following:
 ### Start the API
 You can start the API by simply running the **ef-api** project in the Visual Studio debugger.
 
-## <a href="callapi">Make API calls</a>
+## <a name="callapi"/>Make API calls
 You should, now, be able to test the live API by issuing GET and POST requests the API endpoint, http://localhost:4315/api/registrations.  The examples below use curl. But, you should feel free to use the API client of your choosing be that PostMan, Fiddler, or what have you.
 
 ### POST
