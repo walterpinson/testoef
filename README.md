@@ -42,7 +42,7 @@ curl -H "Content-Type: application/json" -H "Accept-Charset: utf-8" --data @- ht
 {
     "FirstName": "Benjamin",
     "LastName": "Fraklin",
-    "Message": "Money makes money. And the money that makes money makes more money."
+    "Message": "Money makes money. And the money that money makes, makes more money."
 }
 ```
 #### Response
