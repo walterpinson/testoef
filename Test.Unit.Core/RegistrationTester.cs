@@ -7,6 +7,7 @@ namespace Test.Unit.Core
     [TestFixture]
     public class RegistrationTester
     {
+        [Test]
         public void CanSetId()
         {
             // ARRANGE
