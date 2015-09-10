@@ -20,5 +20,10 @@ namespace Test.Unit.Core
             // ASSERT
             Assert.That(subjectUnderTest.Id, Is.EqualTo(expectedId));
         }
+
+        public void CanSetRespondedOn()
+        {
+
+        }
     }
 }
