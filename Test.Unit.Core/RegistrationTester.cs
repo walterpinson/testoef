@@ -34,5 +34,19 @@ namespace Test.Unit.Core
             // ASSERT
             Assert.That(subjectUnderTest.RespondedOn, Is.EqualTo(expectedRespondedOn));
         }
+
+        [Test]
+        public void CanSetName()
+        {
+            // ARRANGE
+            var expectedName = NSubstitute.Substitute.For<Name>();
+            var subjectUnderTest = new Registration();
+
+            // ACT
+            subjectUnderTest.Name = expectedName;
+
+            // ASSERT
+            Assert.That(subjectUnderTest.Name, Is.SameAs(expectedName));
+        }
     }
 }
