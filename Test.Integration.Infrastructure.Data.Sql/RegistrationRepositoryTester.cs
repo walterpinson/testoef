@@ -61,7 +61,6 @@ namespace Test.Integration.Infrastructure.Data.Sql
             var registration = new Registration
             {
                 Id = Guid.Empty,
-                RespondedOn = DateTime.Now,
                 Name = name,
                 Message = $"Thank you for hosting this event!"
             };

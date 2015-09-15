@@ -22,20 +22,6 @@ namespace Test.Unit.Core
         }
 
         [Test]
-        public void CanSetRespondedOn()
-        {
-            // ARRANGE
-            var expectedRespondedOn = DateTime.Now;
-            var subjectUnderTest = new Registration();
-
-            // ACT
-            subjectUnderTest.RespondedOn = expectedRespondedOn;
-
-            // ASSERT
-            Assert.That(subjectUnderTest.RespondedOn, Is.EqualTo(expectedRespondedOn));
-        }
-
-        [Test]
         public void CanSetName()
         {
             // ARRANGE
