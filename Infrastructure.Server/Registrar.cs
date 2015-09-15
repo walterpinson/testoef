@@ -22,11 +22,11 @@ namespace Infrastructure.Server
             var name = new Name {First = message.FirstName, Last = message.LastName};
             var registration = new Registration
             {
-                Id = Guid.Empty,
                 Message = message.Message,
                 Name = name,
-                RespondedOn = DateTime.Now
             };
+
+            registration.Register();
 
             _registrationRepository.Add(registration);
 
